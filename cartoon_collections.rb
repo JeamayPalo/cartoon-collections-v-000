@@ -1,9 +1,12 @@
 
+array = ["Sleepy", "Dopey", "Bashful"]
 def roll_call_dwarves(array)# code an argument here
   # Your code here
+  dwarves_array = []
   array.each_with_index do |name, index|
-    array[index] = name
+    dwarves_array << array[index] = name
   end
+  dwarves_array.split
 end
 
 def summon_captain_planet# code an argument here
