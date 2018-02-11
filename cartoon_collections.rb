@@ -12,9 +12,9 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.collect { if |x| x.length > 2} 
-   return true 
-  {elsif |x| x.length < 4} 
+  array.collect { if |x| x.length > 2}
+   return true
+  {elsif |x| x.length < 4}
     return false
   else nil
 end
