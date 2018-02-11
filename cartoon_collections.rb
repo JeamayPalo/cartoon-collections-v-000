@@ -17,6 +17,6 @@ end
 
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
-  array.include? {|x| x == "cheddar" || x == "gouda" || x == "camembert"}
+  array.include? {|x| x == "cheddar" || x == "gouda" || x == "camembert"} ? cheese_type : nil
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
