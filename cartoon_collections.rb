@@ -1,8 +1,6 @@
-'require pry'
 
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-binding.pry
   array.each_with_index {|name, index| array[name] = index}
 end
 
