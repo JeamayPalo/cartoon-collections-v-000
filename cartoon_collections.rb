@@ -12,11 +12,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.collect { if |x| x.length > 2}
-   return true
-  {elsif |x| x.length < 4}
-    return false
-  else nil
+  array.collect { if |x| x.length > 2} ? true : false
 end
 
 def find_the_cheese# code an argument here
